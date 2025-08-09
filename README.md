@@ -2,7 +2,7 @@
 
 A multi-user cookie shopping experience built with **UIKit**, **Storyboard**, and **in-memory data management**. Designed for MAP523 Midterm Project.
 
-## 📱 App Overview
+##  App Overview
 
 The Cookie Store App allows users to:
 - Log in as one of three predefined users.
@@ -11,7 +11,7 @@ The Cookie Store App allows users to:
 - View personalized purchase history.
 - Share cookie inventory across all users.
 
-## 🧑‍💻 User Credentials
+##  User Credentials
 
 | Username | Password   |
 |----------|------------|
@@ -23,14 +23,14 @@ Each user has their **own purchase history**, but all share a **global cookie in
 
 ---
 
-## 🧩 Features
+##  Features
 
-### 1. 🔐 Login Screen
+### 1. Login Screen
 - Hardcoded user credentials
 - Transitions to the app via `UITabBarController`
 - Resets login fields after logout
 
-### 2. 📋 Item List Screen (Tab 1)
+### 2. Item List Screen (Tab 1)
 - TableView using a custom cell (`CookieCell`)
 - Displays:
   - 🍪 Cookie image
@@ -38,7 +38,7 @@ Each user has their **own purchase history**, but all share a **global cookie in
   - 💰 Cookie price
 - Tap to navigate to Purchase screen
 
-### 3. 🛒 Purchase Screen
+### 3. Purchase Screen
 - Displays selected cookie image and name
 - Quantity Picker:
   - Single variant ➜ One column (quantity only)
@@ -49,14 +49,14 @@ Each user has their **own purchase history**, but all share a **global cookie in
   - Records purchase to current user's history
   - Alerts success or out-of-stock
 
-### 4. 📜 Sales History Screen (Tab 2)
+### 4. Sales History Screen (Tab 2)
 - TableView showing current user’s past purchases
 - Each cell displays:
   - Cookie name & variant
   - Quantity
   - Purchase date (e.g., `16/06/25`)
 
-### 5. 👤 Multi-User & Logout
+### 5. Multi-User & Logout
 - Users can log out and log in as others
 - Shared inventory reflects in real-time across users
 - Logout button available in navigation bar on both tabs
